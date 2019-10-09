@@ -12,21 +12,23 @@ var productosDestacados = [
 var submenus = [
   // Submenu "Shop"
   [
-    ["lorem ipsum", "link.html"],
-    ["lorem ipsum", "link.html"],
-    ["lorem ipsum", "link.html"]
+    ["Shop Category", "link.html"],
+    ["Product Details", "link.html"],
+    ["Product Checkout", "link.html"],
+    ["Confirmation", "link.html"],
+    ["Shopping Cart", "link.html"]
   ],
   // Submenu "Blog"
   [
-    ["lorem ipsum", "link.html"],
-    ["lorem ipsum", "link.html"],
-    ["lorem ipsum", "link.html"]
+    ["Blog", "link.html"],
+    ["Blog Details", "link.html"]
+  
   ],
   // Submenu "Pages"
   [
-    ["lorem ipsum", "link.html"],
-    ["lorem ipsum", "link.html"],
-    ["lorem ipsum", "link.html"]
+    ["Login", "link.html"],
+    ["Register", "link.html"],
+    ["Tracking", "link.html"]
   ]
 ];
 
@@ -35,10 +37,19 @@ var submenus = [
 // help: img/home/hero-slide1.png img/home/hero-slide2.png img/home/hero-slide3.png
 productosCarrusel.push([
   "img/home/hero-slide1.png",
+  "Zapatilla",
+  "Accessories Item"
+]);
+productosCarrusel.push([
+  "img/home/hero-slide2.png",
   "Wireless Headphone",
   "Accessories Item"
 ]);
-
+productosCarrusel.push([
+  "img/home/hero-slide3.png",
+  "Parlante Bluetooth",
+  "Accessories Item"
+]);
 // 3 - Arreglar el listado de productos destacados (Trending product)
 // 3.1 - Quita el ultimo elemento del listado con .pop()
 // 3.2 - Agrega elementos al listado para obtener el mismo resultado que en https://array-test.netlify.com/
